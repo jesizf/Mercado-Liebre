@@ -1,0 +1,22 @@
+footer{
+    
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+footer div i{
+    text-align: center;
+    color: var(--colorCeleste);
+    font-size: 2em;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    
+}
+footer div p, footer div h4{
+    color:var(--colorGrisoscuro);
+}
+p.derechos {
+    margin-right:20%;
+    padding-top:30px;
+    padding-bottom: 20px;
+    
+}

@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+   list-style: none; 
+}
+:root{
+    --colorAmarillo: #EAC926;
+--colorAzul: #03264C;
+--colorCeleste: #1259c3;
+--colorGrisoscuro: #666;
+--colorGrisclaro: #ebebeb;
+--colorVerde: #39b54a;
+}

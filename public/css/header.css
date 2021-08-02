@@ -1,0 +1,53 @@
+header{
+    background-color: var(--colorAmarillo);
+   padding-bottom: 5px;
+}
+header img{
+    width: 50%;
+    padding-left:15px;
+    padding: 20px 20px;
+    
+    }
+header p {
+    text-align: center;
+    font-size:12px;
+    padding:5px;
+    
+}
+header div {
+    padding-left:15px;
+    
+    
+    
+    
+}
+
+header div input{
+    padding:0 ;
+}
+
+header nav ul{
+    padding-bottom: 20px;
+
+}
+
+header nav ul li a {
+    color:black;
+    font-size: 12px;
+    
+}
+
+
+header div.btn-burger{
+    width: 35px;
+    height: 35px;
+    padding: 8px 8px;
+    display:block;
+    background-color: var(--colorCeleste);
+    margin: 30px auto;
+    text-align: center;
+   color: var(--colorGrisclaro);
+    border-radius: 20%;
+    
+}
+

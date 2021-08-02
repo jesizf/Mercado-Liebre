@@ -1,0 +1,25 @@
+.home {
+    font-family: 'Roboto', sans-serif;
+    
+}
+.productos section{
+    text-align: center;
+    background-color: var(--colorGrisclaro);
+    
+   
+}
+
+
+section.ultima-visita article, section.ofertas article {
+    padding-bottom: 20px;
+    
+}
+h4.titulares{
+    font-size: 24px;
+    padding-top:15px ;
+    padding-bottom: 15px;
+
+}
+p.precios{
+    font-size: 18px;
+}
