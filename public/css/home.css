@@ -2,24 +2,28 @@
   font-family: "Roboto";
 }
 
+main .banner{
+    width: 100%;
+}
 .productos section {
   text-align: center;
   background-color: var(--colorGrisclaro);
   padding-bottom: 10px;
 }
 
-.productos article {
+main.productos article {
   border-top: 1px solid #ebebeb;
   background-color: #ebebeb;
   width: 90%;
   margin: auto;
 }
-img {
+main.productos img {
   width: 100%;
+  
 }
 div.caja-descriptiva {
   background-color: #ffff;
-  margin-top: -2.5px;
+  
   text-align: left;
   padding-bottom: 10px;
   margin-bottom: 10px;
