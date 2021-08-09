@@ -15,15 +15,23 @@ header p {
     
 }
 header div {
-    padding-left:15px;
-    
-    
-    
+    padding-left:10px;
     
 }
 
 header div input{
     padding:0 ;
+}
+.buscar{
+    display:flex;
+
+}
+header div.lupita i{
+    background-color: blanchedalmond;
+    border:1px solid gray;
+    font-size: 15px;
+    color:rgba(0, 0, 0, 0.911);
+    padding:1px;
 }
 
 header nav ul{
@@ -34,7 +42,7 @@ header nav ul{
 header nav ul li a {
     color:black;
     font-size: 12px;
-    
+    display:none;
 }
 
 
@@ -50,4 +58,37 @@ header div.btn-burger{
     border-radius: 20%;
     
 }
-
+/*movil */
+@media(min-width:320px){
+    header nav ul li a {display:none;}
+    
+    header div.btn-burger{
+        width: 35px;
+        height: 35px;
+        padding: 8px 8px;
+        background-color: var(--colorCeleste);
+        margin:5px auto;
+        text-align: center;
+       color: var(--colorGrisclaro);
+        border-radius: 20%;
+        
+    }
+    header nav ul{
+        padding-bottom: 3px;
+    
+    }
+}
+/*tablet*/
+@media(min-width:361px){
+    header div.btn-burger{
+        display: none;}
+    header nav ul li a {display:inline-block;} 
+     
+}
+/*escritorio*/
+@media (min-width: 769px) {
+    header div.btn-burger{
+        display: none;}
+    header nav ul li a {display:inline-block;}      
+   
+}

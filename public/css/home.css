@@ -1,25 +1,95 @@
 .home {
-    font-family: 'Roboto';
-    
+  font-family: "Roboto";
 }
-.productos section{
-    text-align: center;
-    background-color: var(--colorGrisclaro);
+
+.productos section {
+  text-align: center;
+  background-color: var(--colorGrisclaro);
+  padding-bottom: 10px;
+}
+
+.productos article {
+  border-top: 1px solid #ebebeb;
+  background-color: #ebebeb;
+  width: 90%;
+  margin: auto;
+}
+img {
+  width: 100%;
+}
+div.caja-descriptiva {
+  background-color: #ffff;
+  margin-top: -2.5px;
+  text-align: left;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+
+  padding-left: 10px;
+}
+
+div.caja-descriptiva div{
+    margin-left: 5px;
+}
+div.caja-descriptiva div.camioneta i{
+  color: #2fb54e;
+    margin-top: 10px ;
     
-   
+  /* padding-left: 30px; */
+  padding: 10px 10px;
+  border-radius: 50%;
+  border: 1px solid green;
 }
 
 
-section.ultima-visita article, section.ofertas article {
-    padding-bottom: 20px;
-    
+div.caja-descriptiva h4 {
+  color: var(--colorGrisoscuro);
+  padding-top: 25px;
+  display: none;
 }
-h4.titulares{
-    font-size: 24px;
-    padding-top:15px ;
-    padding-bottom: 15px;
 
+h4.titulares {
+  font-size: 24px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: var(--colorGrisoscuro);
 }
-p.precios{
-    font-size: 18px;
+
+div.caja-descriptiva p.precios {
+  font-size: 18px;
+  color: black;
+}
+.productos p {
+  color: #2fb54e;
+}
+@media (min-width: 361px) {
+  .productos article {
+    border-top: 1px solid #ebebeb;
+    background-color: #ebebeb;
+    width: 90%;
+    margin: auto;
+    box-shadow: 1px 2px 9px -1px rgba(0, 0, 0, 0.75);
+  }
+
+  
+}
+@media (min-width: 769px) {
+  .productos article {
+    border-top: 1px solid #ebebeb;
+    background-color: #ebebeb;
+    width: 90%;
+    margin: auto;
+    box-shadow: 1px 2px 9px -1px rgba(0, 0, 0, 0.75);
+  }
+  div.caja-descriptiva {
+    background-color: #ffff;
+    margin-top: -2.5px;
+    text-align: left;
+    display: inline-block;
+    width:100%;
+  }
+}
+@media (min-width: 360px) {
+  div.caja-descriptiva h4 {
+    display: inline-block;
+  }
 }
