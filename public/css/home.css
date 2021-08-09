@@ -29,6 +29,7 @@ div.caja-descriptiva {
 
 div.caja-descriptiva div{
     margin-left: 5px;
+    
 }
 div.caja-descriptiva div.camioneta i{
   color: #2fb54e;
@@ -67,7 +68,7 @@ div.caja-descriptiva p.precios {
     background-color: #ebebeb;
     width: 90%;
     margin: auto;
-    box-shadow: 1px 2px 9px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 10px rgb(100, 100, 100)
   }
 
   
@@ -78,7 +79,7 @@ div.caja-descriptiva p.precios {
     background-color: #ebebeb;
     width: 90%;
     margin: auto;
-    box-shadow: 1px 2px 9px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 10px rgb(100, 100, 100)
   }
   div.caja-descriptiva {
     background-color: #ffff;
