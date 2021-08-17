@@ -73,7 +73,7 @@ main section .banner{
 .home main article .datos .descripcion {
   display: none;
   color: var(--colorGrisoscuro);
-  padding-top: 25px;
+  padding-top: 10px;
   
 }
 
