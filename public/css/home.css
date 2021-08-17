@@ -14,9 +14,13 @@ main section .banner{
   text-align: center;
   background-color: var(--colorGrisclaro);
   padding-bottom: 10px;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 .home main section h4.titulares{
   text-align: left;
+  font-size: 24px;
   width:100%;
   color:var(--colorGrisoscuro);
 }
@@ -50,17 +54,20 @@ main section .banner{
   right:20px;
   top: -15px;
 }
-/*.home main article .datos .caja-precios{
+.home main article .datos .caja-precios{
   display: flex;
+  justify-content: center;
 }
 /*precio*/
 .home main article .datos .precios{
   font-size: 18px;
+  flex-grow: 0.3;
 }
 /*descuento*/
 .home main article .datos .descuento{
   font-size:16px;
   color:var(--colorVerde);
+  flex-grow: 0.7;
 }
 /*descripcion*/
 .home main article .datos .descripcion {
