@@ -3,6 +3,10 @@
     margin:0;
     padding: 0;
 }
+body{
+    font-size: 12px;
+    background-color: var(--colorGrisclaro);
+}
 a{
     text-decoration: none;
 }
