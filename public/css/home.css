@@ -57,11 +57,11 @@ main section .banner{
   position: absolute;
   right:20px;
   top: -15px;
-  transition: all ease .3s
+  transition: all ease 1.5s
 }
-.home main section article:hover .data i{
+.home main section article:hover .datos i{
 box-shadow: 0 0 5px var(--colorVerde);
-transform:rotate(360deg);
+transform: rotate(360deg);
 }
 .home main article .datos .caja-precios{
   display: flex;
@@ -80,16 +80,18 @@ transform:rotate(360deg);
 }
 /*descripcion*/
 .home main article .datos .descripcion {
-  height:0;
+  height:0px;
+  
   /*display: none;*/
   color: var(--colorGrisoscuro);
   padding-top: 10px;
-  transition: all ease .3;
+  transition: all ease 0.3s;
   overflow:hidden
 }
 
 .home main article:hover .datos .descripcion{
-height:20px;
+height:25px;
+width: 100%;;
 margin-top:10px;
 }
 

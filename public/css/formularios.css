@@ -33,3 +33,7 @@ margin:30px 0;
 }
 .register-login .contenedor .container-buttons button{
     color:#ffffff;}
+.register-login .contenedor .container-buttons .btn-celeste2{
+    width:100%;
+    background-color: var(--colorCeleste);
+}
