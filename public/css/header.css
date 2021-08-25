@@ -17,15 +17,9 @@ header .logo-search .logo{
     margin-bottom:10px;
     
 }
-<<<<<<< HEAD
 header .logo-search .search-bar{
 width:48%;
 
-=======
-header .logo-search .buscar {
-    width: 50%;
-    display: flex;
->>>>>>> organizando-elementos
 }
 
 header .logo-search .buscar form{
