@@ -3,13 +3,20 @@ footer{
     text-align: center;
     font-family: 'Roboto';
 }
+
+/*text-alig:center;
+margin-bottom:60px;
+padding: 0 50px;*/
 footer div i{
     text-align: center;
     color: var(--colorCeleste);
     font-size: 2em;
     margin-top: 30px;
     margin-bottom: 10px;
-    
+    transition: color ease .4s;
+}
+footer div i:hover{
+    color:var(--colorAzul);
 }
 footer div p, footer div h4{
     color:var(--colorGrisoscuro);
@@ -20,4 +27,17 @@ p.derechos {
     padding-bottom: 20px;
     color:var(--colorGrisoscuro);
     
+}
+@media(min-width:1024px){
+    footer .contain-footer{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    footer section.contain-footer div{
+        width:33%;
+        padding: 0 25px;
+        margin-bottom:20px;
+
+    }
 }

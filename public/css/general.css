@@ -30,9 +30,13 @@ input, button{
 button:hover{
     cursor: pointer;
 }
-.btn-verde{
-background-color: var(--colorVerde);
+.btn-celeste{
+background-color: var(--colorCeleste);
+transition: background-color linear .3s;
 }
+.btn-celeste:hover{
+    background-color: #0022aa;
+    }
 .btn-rojo{
     background-color: red;
 }
