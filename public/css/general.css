@@ -1,4 +1,4 @@
-*{
+*{font-family: "Roboto";
     box-sizing: border-box;
     margin:0;
     padding: 0;
@@ -20,4 +20,19 @@ li{
 --colorGrisoscuro: #666;
 --colorGrisclaro: #ebebeb;
 --colorVerde: #39b54a;
+}
+input, button{ 
+    padding:10px;
+    border:none;
+    border-radius: 5px;
+   
+}
+button:hover{
+    cursor: pointer;
+}
+.btn-verde{
+background-color: var(--colorVerde);
+}
+.btn-rojo{
+    background-color: red;
 }

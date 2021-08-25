@@ -20,9 +20,24 @@ header .logo-search .logo{
 header .logo-search .search-bar{
 width:48%;
 }
-    
+header .logo-search .search-bar form{
+    width:100%;
+    display: flex;
+}
+
 header .logo-search .search-bar input{ 
-    width:80%;
+    border-radius: 5px 0px 0px 5px;
+    width:100%;
+    padding: 10px;
+}
+/*input*/
+header .logo-search .search-bar button{ 
+    background-color: white;
+    border-radius: 0px 5px 5px 0px;
+    color:var(--colorGrisoscuro);
+    padding:10px 5px;
+    display: flex;
+    align-items: center;
 }
 
 header p{
