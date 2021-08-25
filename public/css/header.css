@@ -19,16 +19,20 @@ header .logo-search .logo{
 }
 header .logo-search .search-bar{
 width:48%;
+
 }
 header .logo-search .search-bar form{
     width:100%;
     display: flex;
+    
+   
 }
 
 header .logo-search .search-bar input{ 
     border-radius: 5px 0px 0px 5px;
     width:100%;
     padding: 10px;
+    flex-grow:1;
 }
 /*input*/
 header .logo-search .search-bar button{ 
@@ -39,7 +43,10 @@ header .logo-search .search-bar button{
     display: flex;
     align-items: center;
 }
-
+/*hover*/
+header .logo-search .search-bar button:hover{
+    cursor:pointer;
+}
 header p{
   width:100%;
   text-align:center;
