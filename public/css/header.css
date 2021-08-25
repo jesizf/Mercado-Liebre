@@ -1,6 +1,6 @@
 header{
     background-color: var(--colorAmarillo);
-   padding-bottom: 5px;
+   padding: 30px 20px 20px 20px;
   
 }
 header .logo-search{
@@ -13,29 +13,36 @@ header .logo-search{
     }
 header .logo-search .logo{
     width:48%;
-   margin-left:10px;
+  
     margin-bottom:10px;
     
 }
+<<<<<<< HEAD
 header .logo-search .search-bar{
 width:48%;
 
+=======
+header .logo-search .buscar {
+    width: 50%;
+    display: flex;
+>>>>>>> organizando-elementos
 }
-header .logo-search .search-bar form{
+
+header .logo-search .buscar form{
     width:100%;
     display: flex;
     
    
 }
 
-header .logo-search .search-bar input{ 
+header .logo-search .buscar input{ 
     border-radius: 5px 0px 0px 5px;
-    width:100%;
+    width:80%;
     padding: 10px;
     flex-grow:1;
 }
 /*input*/
-header .logo-search .search-bar button{ 
+header .logo-search .buscar button{ 
     background-color: white;
     border-radius: 0px 5px 5px 0px;
     color:var(--colorGrisoscuro);
@@ -80,8 +87,9 @@ header div.btn-burger i{
 
 
 /*tablet*/
-@media(min-width:361px){
+@media(min-width:768px){
     header nav{
+       
         display:flex;
         justify-content: space-between;
     }
@@ -96,21 +104,22 @@ header div.btn-burger i{
    
 
     header .logo-search .logo{
-        width:33%;
+        width:32%;
     }
-    header .logo-search .search-bar{
-        width:33%;
+    header .logo-search .buscar{
+        width:32%;
     }
     header p.compra{
-        width:33%;
+        width:32%;
         margin:20px 0;}
     
     header div.btn-burger{
         display: none;}
-}
+   
 /*escritorio*/
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
     header nav{
+       
         display:flex;
         justify-content: space-between;
     }
@@ -125,16 +134,16 @@ header div.btn-burger i{
    
 
     header .logo-search .logo{
-        width:33%;
+        width:32%;
     }
-    header .logo-search .search-bar{
-        width:33%;
+    header .logo-search .buscar{
+        width:32%;
     }
     header p.compra{
-        width:33%;
+        width:32%;
         margin:20px 0;}
     
     header div.btn-burger{
         display: none;}
    
-}
+}}
